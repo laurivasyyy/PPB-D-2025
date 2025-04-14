@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello World Application</string>
+    <string name="welcome_text">Welcome to the Basics Codelab!</string>
+    <string name="start_button">Start</string>
+    <string name="greeting_text">Hello-</string>
+    <string name="text_dummy">My name is Laurivasya, \nHere i am working on my first android studio project.</string>
+    <string name="show_less">Show less</string>
+    <string name="show_more">Show more</string>
+</resources>
