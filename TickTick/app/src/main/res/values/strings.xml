@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TickTick</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_name">Task Name</string>
+    <string name="deadline">Deadline</string>
+    <string name="save_task">Save Task</string>
+    <string name="delete_task">Delete Task</string>
+</resources>
