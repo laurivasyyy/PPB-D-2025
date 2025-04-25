@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.ticktick" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C47976</item>
+        <item name="colorPrimaryVariant">#C47976</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFCAC9</item>
+        <item name="colorSecondaryVariant">#FFCAC9</item>
+        <item name="colorOnSecondary">#000000</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">#C47976</item>
+    </style>
+
+    <!-- AppBar overlay style -->
+    <style name="Theme.ticktick.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Popup overlay style -->
+    <style name="Theme.ticktick.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- NoActionBar theme style -->
+    <style name="Theme.ticktick.NoActionBar" parent="Theme.ticktick">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

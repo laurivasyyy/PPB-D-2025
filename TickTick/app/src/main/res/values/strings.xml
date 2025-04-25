@@ -1,8 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TickTick</string>
-    <string name="add_task">Add Task</string>
-    <string name="task_name">Task Name</string>
-    <string name="deadline">Deadline</string>
-    <string name="save_task">Save Task</string>
-    <string name="delete_task">Delete Task</string>
+    <string name="tambah">Tambah</string>
+    <string name="tidak_ada_tugas">Tidak ada tugas</string>
+    <string name="urutkan_berdasarkan_tenggat">Urutkan berdasarkan tenggat</string>
+    <string name="urutkan_berdasarkan_status">Urutkan berdasarkan status</string>
+    <string name="diurutkan_berdasarkan_tenggat">Diurutkan berdasarkan tenggat</string>
+    <string name="diurutkan_berdasarkan_status">Diurutkan berdasarkan status</string>
+    <string name="tambah_tugas">Tambah Tugas</string>
+    <string name="nama_tugas">Nama Tugas</string>
+    <string name="tenggat_waktu">Tenggat Waktu</string>
+    <string name="pilih_tanggal">Pilih Tanggal</string>
+    <string name="pilih_waktu">Pilih Waktu</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="tugas_selesai">Tugas Selesai</string>
+    <string name="tugas_belum_selesai">Tugas Belum Selesai</string>
+    <string name="tugas_berhasil_disimpan">Tugas berhasil disimpan</string>
+    <string name="error_nama_tugas_kosong">Nama tugas tidak boleh kosong</string>
+    <string name="error_tenggat_waktu_kosong">Tenggat waktu tidak boleh kosong</string>
+    <string name="harap_isi_nama_tugas">Harap isi nama tugas</string>
+    <string name="tenggat_waktu_tidak_valid">Tenggat waktu tidak valid</string>
+    <string name="selamat_datang">Selamat Datang di TickTick</string>
+    <string name="mulai">Mulai</string>
+    <string name="deskripsi_app">Aplikasi manajemen tugas simpel</string>
 </resources>
