@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/starbucks_green"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/back_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="12dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/menu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Category Tabs -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/light_gray">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tabDrinks"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:minWidth="80dp"
+                android:text="@string/drinks"
+                android:textColor="@color/starbucks_green"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <TextView
+                android:id="@+id/tabFood"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:minWidth="80dp"
+                android:text="@string/food"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <TextView
+                android:id="@+id/tabCoffee"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:minWidth="80dp"
+                android:text="@string/coffee"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <TextView
+                android:id="@+id/tabMerchandise"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:minWidth="120dp"
+                android:text="@string/merchandise"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!-- Menu Items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:contentDescription="@string/menu_items_list_description" />
+
+    <!-- Bottom Navigation - Direct implementation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:baselineAligned="false">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/home"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:drawableTopCompat="@drawable/ic_home"
+            android:drawablePadding="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/home" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/navOrder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/order"
+            android:textColor="@color/starbucks_green"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:drawableTopCompat="@drawable/ic_menu"
+            android:drawablePadding="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/order" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/navStores"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/stores"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:drawableTopCompat="@drawable/ic_store"
+            android:drawablePadding="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/stores" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/navRewards"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/rewards"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:drawableTopCompat="@drawable/ic_rewards"
+            android:drawablePadding="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/rewards" />
+
+    </LinearLayout>
+
+</LinearLayout>

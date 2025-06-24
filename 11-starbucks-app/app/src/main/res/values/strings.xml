@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Starbucks</string>
+<string name="welcome_title">Welcome to Starbucks</string>
+<string name="welcome_subtitle">Your daily dose of happiness</string>
+<string name="sign_up">Sign Up</string>
+<string name="log_in">Log In</string>
+<string name="continue_as_guest">Continue as Guest</string>
+<string name="home">Home</string>
+<string name="order">Order</string>
+<string name="stores">Stores</string>
+<string name="rewards">Rewards</string>
+<string name="menu">Menu</string>
+
+<!-- Navigation and UI strings -->
+<string name="back_button">Back button</string>
+<string name="drinks">Drinks</string>
+<string name="food">Food</string>
+<string name="coffee">Coffee</string>
+<string name="merchandise">Merchandise</string>
+
+<!-- Store Item Layout strings -->
+<string name="store_name_placeholder">Store Name</string>
+<string name="store_address_placeholder">Store Address</string>
+<string name="store_hours_placeholder">Store Hours</string>
+<string name="store_distance_placeholder">0.0 km</string>
+
+<!-- Menu Item Layout strings -->
+<string name="menu_item_name_placeholder">Item Name</string>
+<string name="menu_item_description_placeholder">Item description</string>
+<string name="menu_item_price_placeholder">$0.00</string>
+<string name="menu_item_image">Menu item image</string>
+
+<!-- Navigation Accessibility strings -->
+<string name="nav_home_description">Navigate to Home screen</string>
+<string name="nav_order_description">Navigate to Order menu</string>
+<string name="nav_stores_description">Navigate to Store locator</string>
+<string name="nav_rewards_description">Navigate to Rewards program</string>
+
+<!-- Store Locator strings -->
+<string name="store_locator_title">Store Locator</string>
+<string name="current_location">📍 Surabaya, East Java</string>
+    <string name="store_list_description">List of nearby Starbucks stores</string>
+
+<!-- Signup Activity strings -->
+<string name="join_starbucks_rewards">Join Starbucks® Rewards</string>
+<string name="earn_stars_subtitle">Earn Stars and get rewarded</string>
+
+<!-- Rewards Activity strings -->
+<string name="starbucks_rewards_title">Starbucks® Rewards</string>
+<string name="current_stars_count">125 ⭐</string>
+<string name="stars_until_next_reward">25 stars until next reward</string>
+<string name="rewards_section_title">Rewards</string>
+
+<!-- Reward Tier strings -->
+<string name="reward_tier_25_stars">25 ⭐</string>
+<string name="reward_25_title">Customize your drink</string>
+<string name="reward_25_description">Extra shot, dairy substitute and more</string>
+
+<string name="reward_tier_50_stars">50 ⭐</string>
+<string name="reward_50_title">Brewed hot coffee, bakery item or hot tea</string>
+
+<string name="reward_tier_150_stars">150 ⭐</string>
+<string name="reward_150_title">Handcrafted drink, hot breakfast or parfait</string>
+
+<!-- Product Detail strings -->
+<string name="product_details">Product Details</string>
+<string name="product_name_placeholder">Product Name</string>
+<string name="price_placeholder">$0.00</string>
+<string name="description_label">Description</string>
+<string name="product_description_placeholder">Product description</string>
+<string name="size_label">Size</string>
+<string name="size_tall">Tall</string>
+<string name="size_grande">Grande</string>
+<string name="size_venti">Venti</string>
+<string name="add_to_cart">Add to Cart</string>
+<string name="product_image_placeholder">Product image</string>
+
+<!-- Home screen strings -->
+<string name="starbucks_logo">Starbucks Logo</string>
+<string name="good_morning_greeting">Good morning, Laurivasya!</string>
+<string name="stars_available">⭐ 125 Stars available</string>
+<string name="find_store">Find Store</string>
+<string name="stars_until_reward">125 ⭐ until next reward</string>
+<string name="details">Details</string>
+<string name="featured_drinks">Featured Drinks</string>
+<string name="caramel_macchiato">Caramel Macchiato</string>
+<string name="caramel_macchiato_desc">Freshly steamed milk with vanilla-flavored syrup</string>
+<string name="price_caramel_macchiato">$5.45</string>
+<string name="pike_place_roast">Pike Place Roast</string>
+<string name="pike_place_desc">Our signature medium roast coffee</string>
+<string name="price_pike_place">$3.45</string>
+
+<!-- Form strings -->
+<string name="first_name">First name *</string>
+<string name="last_name">Last name *</string>
+<string name="email_address">Email address *</string>
+<string name="phone_number">Phone number *</string>
+<string name="password">Password *</string>
+<string name="password_requirement">Password must be at least 8 characters</string>
+<string name="terms_acceptance">I accept the Terms of Use and Privacy Policy</string>
+<string name="marketing_emails">Send me marketing emails (optional)</string>
+<string name="create_account">Create Account</string>
+<string name="already_have_account">Already have an account? Sign in</string>
+
+<!-- OTP strings with placeholders -->
+<string name="verify_phone">Verify Your Phone</string>
+<string name="verification_code_sent">We sent a verification code to your phone</string>
+<string name="verification_code_sent_to">We sent a verification code to\n%1$s</string>
+<string name="enter_verification_code">Enter verification code</string>
+<string name="didnt_receive_code">Didn\'t receive the code?</string>
+<string name="resend_code">Resend code</string>
+<string name="resend_code_initial">Resend code in 30s</string>
+<string name="resend_code_timer">Resend code in %1$ds</string>
+<string name="verify">Verify</string>
+<string name="change_phone_number">Change phone number</string>
+
+<!-- OTP Accessibility strings -->
+<string name="otp_digit_1_hint">-</string>
+<string name="otp_digit_2_hint">-</string>
+<string name="otp_digit_3_hint">-</string>
+<string name="otp_digit_4_hint">-</string>
+<string name="otp_digit_5_hint">-</string>
+<string name="otp_digit_6_hint">-</string>
+
+<!-- Toast messages -->
+<string name="account_verified_success">Account verified successfully! Welcome to Starbucks!</string>
+<string name="enter_complete_code">Please enter complete verification code</string>
+<string name="verification_code_resent">Verification code resent!</string>
+<string name="verification_code_sent_toast">Verification code sent to your phone!</string>
+<string name="added_to_cart">Added to cart!</string>
+
+<!-- Validation messages -->
+<string name="first_name_required">First name is required</string>
+<string name="last_name_required">Last name is required</string>
+<string name="email_required">Email is required</string>
+<string name="phone_required">Phone number is required</string>
+<string name="password_length_error">Password must be at least 8 characters</string>
+<string name="terms_required">Please accept the Terms of Use and Privacy Policy</string>
+    <string name="menu_items_list_description">menu</string>
+</resources>

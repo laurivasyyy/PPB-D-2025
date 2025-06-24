@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="starbucks_green">#00704A</color>
+    <color name="starbucks_dark_green">#1E3932</color>
+    <color name="starbucks_light_green">#D4E4D8</color>
+    <color name="gold">#D4AF37</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#666666</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="accessible_light_text">#E6FFFFFF</color>  <!-- Better contrast than #CCFFFFFF -->
+    <color name="accessible_progress_bg">#E6FFFFFF</color> <!-- Better contrast for progress bar -->
+</resources>
