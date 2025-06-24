@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Sayurbox</string>
+
+    <!-- Branding -->
+    <string name="app_title">sayurbox</string>
+    <string name="app_tagline">fresh veggies at your doorstep</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome!</string>
+    <string name="btn_sign_up">SIGN UP</string>
+    <string name="btn_sign_in">SIGN IN</string>
+
+    <!-- Authentication -->
+    <string name="first_name">First name*</string>
+    <string name="last_name">Last name*</string>
+    <string name="email_address">Email address*</string>
+    <string name="phone_number">Phone number*</string>
+    <string name="password">Password*</string>
+    <string name="password_requirement">Password must be at least 8 characters</string>
+    <string name="accept_terms">I accept the Terms of Use and Privacy Policy</string>
+    <string name="marketing_emails">Send me marketing emails (optional)</string>
+    <string name="btn_create_account">CREATE ACCOUNT</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+    <string name="login_success">Login successful</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="login_failed">Login failed: %1$s</string>
+    <string name="registration_success">Registration successful</string>
+    <string name="registration_failed">Registration failed: %1$s</string>
+
+    <!-- Main Navigation -->
+    <string name="nav_products">Products</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_favorite">Favorite</string>
+    <string name="nav_order">Order</string>
+
+    <!-- Products Screen -->
+    <string name="products_title">Products.</string>
+    <string name="vegetables_deals">Vegetables Deals</string>
+    <string name="fruits_deals">Fruits Deals</string>
+    <string name="view_all">View all ></string>
+
+    <!-- Product Details -->
+    <string name="add_to_cart">Add to cart</string>
+    <string name="product_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</string>
+
+    <!-- Cart Screen -->
+    <string name="cart_title">Cart.</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="total_items">Total (%1$d items)</string>
+    <string name="checkout_items">Checkout Items</string>
+    <string name="currency_format">Rp%1$,.0f</string>
+
+    <!-- Favorites Screen -->
+    <string name="favorite_title">Favorite.</string>
+    <string name="no_favorites">No favorites yet</string>
+
+    <!-- Orders Screen -->
+    <string name="order_title">Order.</string>
+    <string name="order_number">Order #%1$d</string>
+    <string name="total_amount">Total %1$s</string>
+
+    <!-- Products -->
+    <string name="product_carrot">Carrot</string>
+    <string name="product_broccoli">Broccoli</string>
+    <string name="product_eggplant">Eggplant</string>
+    <string name="product_apple">Apple</string>
+    <string name="product_orange">Orange</string>
+    <string name="product_grape">Grape</string>
+
+    <!-- Prices -->
+    <string name="price_15k">Rp15.000/kg</string>
+    <string name="price_12k">Rp12.000/kg</string>
+    <string name="price_18k">Rp18.000/kg</string>
+    <string name="price_22k">Rp22.000/kg</string>
+
+    <!-- Categories -->
+    <string name="category_vegetables">vegetables</string>
+    <string name="category_fruits">fruits</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_logo">Sayurbox Logo</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_favorite">Favorite</string>
+    <string name="cd_decrease">Decrease</string>
+    <string name="cd_increase">Increase</string>
+    <string name="cd_remove">Remove</string>
+
+    <!-- Common -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="loading">Loading...</string>
+</resources>
